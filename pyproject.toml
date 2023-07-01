@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tui-menu"
-version = "0.1.5"
+dynamic = ["version"]
 description = "A module for TUI Menu driven application"
 readme = "README.md"
 requires-python = ">=3"
@@ -37,10 +37,11 @@ dependencies = [
     "ezenv>=0.92"
 ]
 
-# dynamic = ["version", "description"]
+[tool.setuptools.dynamic]
+version = {attr = "tui-menu.__version__"}
 
 [project.urls]
-#Homepage = "https://example.com"
-#Documentation = "https://readthedocs.org"
+# Homepage = "https://example.com"
+# Documentation = "https://readthedocs.org"
 Repository = "https://github.com/avili68/tui-menu"
-#Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+# Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"

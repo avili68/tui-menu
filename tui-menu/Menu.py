@@ -170,8 +170,7 @@ class Menu:
         clear_screen()
         # display the menu title with underline of '='
         row = print_in_line(row, 6, fx.italic + self.title() + fx.end)
-        row = print_in_line(row, 5, "=" * (len(self.title()) + 2))
-        row += 1
+        row = print_in_line(row, 5, "=" * (len(self.title()) + 2)) + 1
 
         # generate sorted list of menu options
         keys_list = list(self._items)
@@ -187,11 +186,9 @@ class Menu:
         if self.level() != 0:
             # if sub-menu, add the 'return' option
             row = print_in_line(row + 1, 6, "r ) Return to previous menu") + 1
-            # row += 2
 
         # add the 'exit' option
         row = print_in_line(row + 1, 6, "x ) Exit") + 1
-        # row += 2
 
         return row
 
