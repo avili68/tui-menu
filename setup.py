@@ -2,14 +2,14 @@ from setuptools import setup
 
 setup(
     name="tui-menu",
-    version="0.1.0",
+    version="0.1.5",
     description="A module for TUI Menu driven application",
     url="https://github.com/avili68/tui-menu",
     author="Avi Liani",
     author_email="avi@liani.co.il",
     license="GPL",
     packages=["tui-menu"],
-    install_requires=["console>=0.9907"],
+    install_requires=["console>=0.9907", "ezenv>=0.92"],
     python_requires=">=3",
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -19,7 +19,7 @@ setup(
         "Natural Language :: English",
         "Operating System :: MacOS",
         "Operating System :: POSIX :: Linux",
-        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.9",
         "Topic :: Software Development",
         "Topic :: Software Development :: User Interfaces",
     ],

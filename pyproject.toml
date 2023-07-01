@@ -1,0 +1,46 @@
+[build-system]
+requires = [
+    "setuptools >= 65",
+    "wheel >= 0.38",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tui-menu"
+version = "0.1.5"
+description = "A module for TUI Menu driven application"
+readme = "README.md"
+requires-python = ">=3"
+license = {file = "LICENSE.txt"}
+keywords = ["console", "menu", "tui"]
+authors = [
+    {name = "Avi Liani", email = "avi@liani.co.il"},
+]
+maintainers = [
+    {name = "Avi Liani", email = "avi@liani.co.il"}
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Natural Language :: English",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: User Interfaces",
+]
+
+dependencies = [
+    "console>=0.9907",
+    "ezenv>=0.92"
+]
+
+# dynamic = ["version", "description"]
+
+[project.urls]
+#Homepage = "https://example.com"
+#Documentation = "https://readthedocs.org"
+Repository = "https://github.com/avili68/tui-menu"
+#Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
