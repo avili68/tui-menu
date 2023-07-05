@@ -19,7 +19,7 @@ pip install tui-menu
 An example of using this module.
 
 ```python
-from Menu import Menu
+from tui_menu.Menu import Menu
 
 # Create main menu
 main_menu = Menu()

@@ -19,14 +19,14 @@ def get_version(rel_path):
 
 
 setup(
-    name="tui-menu",
-    version=get_version("tui-menu/__init__.py"),
+    name="tui_menu",
+    version=get_version("tui_menu/__init__.py"),
     description="A module for TUI Menu driven application",
     url="https://github.com/avili68/tui-menu",
     author="Avi Liani",
     author_email="avi@liani.co.il",
     license="GPL",
-    packages=["tui-menu"],
+    packages=["tui_menu"],
     install_requires=["console>=0.9907", "ezenv>=0.92"],
     python_requires=">=3",
     classifiers=[

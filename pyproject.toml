@@ -6,7 +6,7 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tui-menu"
+name = "tui_menu"
 dynamic = ["version"]
 description = "A module for TUI Menu driven application"
 readme = "README.md"
@@ -38,7 +38,7 @@ dependencies = [
 ]
 
 [tool.setuptools.dynamic]
-version = {attr = "tui-menu.__version__"}
+version = {attr = "tui_menu.__version__"}
 
 [project.urls]
 # Homepage = "https://example.com"
